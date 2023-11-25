@@ -127,6 +127,11 @@ header {
 	/* border-top-color: var(--main-color); */
 	/* margin : -3px 0px 0px 0px; */
 /* } */
+
+.fa-location-dot {
+	color: #000000;
+}
+
 .border-circle {
 	border-radius: 25px;
 	border: 2px solid #D9D9D9;
@@ -162,7 +167,6 @@ header {
 }
 
 .col-2{
-	height: 49px;
 	display : grid;
 	grid-template-columns : repeat(2, 0fr);
 	gap : 10px;
@@ -187,6 +191,11 @@ header {
 	display : grid;
 	grid-template-columns : repeat(5, 0fr);
 	gap : 15px;
+}
+
+.filter {
+	height: 49px;
+	align-items: center;
 }
 
 .align-center {
