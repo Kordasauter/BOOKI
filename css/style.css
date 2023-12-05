@@ -490,6 +490,12 @@ footer .list {
 		border-top-left-radius: 20px;
 		border-top-right-radius: 20px;
 	}
+    .filter {
+		display : flex;
+		flex-direction : column;
+		gap : 15px;
+		align-items: flex-start;
+    }
 	/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 }
 
@@ -584,12 +590,6 @@ footer .list {
 		color: white;
 	}
 	
-	.filter {
-		display : flex;
-		flex-direction : column;
-		gap : 15px;
-		align-items: flex-start;
-	}
 	.filter-container{
 		width : 100%;
 		display : grid;
