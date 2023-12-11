@@ -16,6 +16,8 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .main-container {
@@ -85,18 +87,19 @@ header {
 
 .btn {
 	width: fit-content;
-	display: inline-block;
+    border-top : solid;
+    border-top-color: white;
 	font-size : 16px;
 	background: inherit;
 	color: inherit;
-	border: none;
+    padding-top: 15px;
 }
 
 .btn:hover {
 	color : var(--main-color);
 	border-top : solid;
 	border-top-color: var(--main-color);
-	margin : -3px 0px 0px 0px;
+    
 }
 
 .fa-location-dot {
@@ -302,7 +305,7 @@ header {
 }
 
 .hebergements-cards .card-content {
-    width: 67%;
+    /* width: 67%; */
     padding-left: 15px;
     display: flex;
     flex-direction: column;
@@ -360,8 +363,8 @@ header {
 }
 
 .activites-cards .card-content {
-    width: 67%;
-    padding-left: 15px;
+    /* width: 67%; */
+    /* padding-left: 15px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -573,11 +576,6 @@ footer .list {
         display : flex;
         align-items: center;
         justify-content: space-evenly;
-        /* border-radius: 15px 0px 0px 15px; */
-        /* border: 1px solid var(--main-bg-color); */
-        /* background: var(--main-bg-color); */
-		/* display : block; */
-		/* padding: 12px 15px; */
 		border-radius: 15px 15px 15px 15px;
 		border: 2px solid var(--main-color);
 		background: var(--main-color);
@@ -663,4 +661,14 @@ footer .list {
 		justify-content: space-between;
 		gap : 15px;
 	}
+
+    .hebergements-and-populaires section {
+        border-radius: 0px;
+    }
+    .mobile-border {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
 }
