@@ -448,6 +448,18 @@ footer .list {
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	gap : 15px;
 }
+ul{
+    list-style-type: none;
+    padding : 0;
+}
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: black;
+  }
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
